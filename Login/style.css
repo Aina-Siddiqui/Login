@@ -1,0 +1,71 @@
+body{
+	background-color: #3c1263;
+	background-color: hsl(271,100%,80%);
+}
+#frame{
+	background-color: white;
+	position: relative;
+	top:80px;
+	left: 120px;
+	width:75%;
+	height: 300px;
+
+	
+	border:1px solid white;
+
+	border-radius: 20px;
+} 
+.image{
+	border-radius: 1px;
+
+}
+.heading{
+	position: relative;
+	bottom:300px;
+	left:500px;
+	font-family:Helvitica;
+}
+.inputfields input[type='email']{
+	position: relative;
+	bottom:300px;
+	left:450px;
+	width: 250px;
+	border:1px solid grey;
+	padding-top:10px;
+	text-indent: 10px;
+	border-radius: 5px;
+
+
+}
+.inputfields input[type='password']{
+	position: relative;
+	bottom:260px;
+	left:190px;
+	width: 250px;
+	border:1px solid grey;
+	padding-top:10px;
+	text-indent: 10px;
+	border-radius: 5px;
+
+
+}
+.inputfields input[type="email"]:focus,
+.inputfields input[type="password"]:focus{
+	background-color:yellow;
+}
+.inputfields input[type="submit"]{
+	background-color: #3c1263; 
+	color: white;
+	font-weight: bold;
+	position: relative;
+	bottom:230px;
+	width: 250px;
+	left: 450px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	}
+.inputfields input[type="submit"]:hover{
+	background-color: yellow;
+}
+
